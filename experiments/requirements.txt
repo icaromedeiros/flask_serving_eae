@@ -1,0 +1,4 @@
+# We are exporting a model using these versions of the libraries
+# In inference part /requirements.txt we should use the same versions
+pandas==1.4.2
+scikit-learn==1.1.0
