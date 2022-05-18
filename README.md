@@ -10,6 +10,9 @@ Simple API to serve dataset info and a ML model based on the Scikit-learn iris d
 
 - Tested in Python 3.10 (should work with Python 3.6+, if not, open an [issue](https://github.com/icaromedeiros/flask_serving_eae/issues/new))
   - Students can add their own versions in which it was tested, create a Pull Request for this README.md)
+- Virtualenv:
+  - python -m venv .venv (check if the dir exists)
+  - source .venv/bin/activate (you're going to see `(.venv)` in your prompt
 - Use `make install` or directly `pip install -r requirements.txt`
 
 # Running
