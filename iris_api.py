@@ -25,7 +25,10 @@ def hello_world():
 # TODO [nice-to-have] Include features in JSON result
 def classify():
     '''
-    This method calls classifier module to get the 
+    This method:
+      - Transforms the HTTP request input into a feature vector
+      - Runs classifier module to get species value
+      - Returns a JSON containing the classification
     '''
     # Gets query or request parameters, i.e. ?name=value&name2=value2 in the URL
     # **TODO** What is the primitive type of a query parameter from an URL ? 

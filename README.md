@@ -14,6 +14,8 @@ Simple API to serve dataset info and a ML model based on the Scikit-learn iris d
 
 # Running
 
+**REPRODUCIBILITY MANTRA**: help your colleagues
+
 - Create executable permissions to the shell script `chmod +x run_server.sh`
 - Run with the following alternatives:
   - As Python module `python iris_api.py`
