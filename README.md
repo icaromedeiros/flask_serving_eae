@@ -12,7 +12,8 @@ Simple API to serve dataset info and a ML model based on the Scikit-learn iris d
   - Students can add their own versions in which it was tested, create a Pull Request for this README.md)
 - Virtualenv:
   - python -m venv .venv (check if the dir exists)
-  - source .venv/bin/activate (you're going to see `(.venv)` in your prompt
+  - Non-Windows:  `source .venv/bin/activate` (you're going to see `(.venv)` in your prompt
+  - Windows: `source .venv/Scripts/activate`
 - Use `make install` or directly `pip install -r requirements.txt`
 
 # Running
