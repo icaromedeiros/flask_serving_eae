@@ -7,13 +7,12 @@ import sklearn.datasets as datasets
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 
+# Iris flower dataset included in scikit-learn as example
 iris = datasets.load_iris()
 # We define a Dataframe (tabular structure) with the predictor variables
 # and on the other hand a separated vector with the response variable
 iris_df = pd.DataFrame(iris.data, columns=iris.feature_names)
 y = iris.target # Target variable
-#df_label = iris_df.copy()
-#species_dict = {0: 'setosa', 1: 'versicolor', 2: 'virginica'}
 
 # Train-test split
 X_train, X_test, y_train, y_test = train_test_split(

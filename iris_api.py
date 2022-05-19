@@ -13,6 +13,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 
+# This is a decorator: function metadata
 @app.route("/")
 def hello_world():
     return "This is the version 1.x of my API and this route can be used as healthcheck"
@@ -32,12 +33,12 @@ def classify():
     '''
     # Gets query or request parameters, i.e. ?name=value&name2=value2 in the URL
     # **TODO** What is the primitive type of a query parameter from an URL ? 
-    content = request.args
+    feature_vector = request.args
 
     # TODO create feature vector from JSON
     # TODO call classifier module and discuss about cohesion/coupling SE concepts
 
-    return content
+    return feature_vector
     # return jsonify({"species": "setosa"})
 
 

@@ -2,3 +2,5 @@
 # In inference part /requirements.txt we should use the same versions
 pandas==1.4.2
 scikit-learn==1.1.0
+
+Flask==2.1.2
